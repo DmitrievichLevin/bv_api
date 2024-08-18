@@ -1,0 +1,10 @@
+import BevorAPI from './build/pkgbuild';
+export const EventAPI = BevorAPI['EventAPI'];
+export const ContactAPI = BevorAPI['ContactAPI'];
+export const LoginAPI = BevorAPI['LoginAPI'];
+export const MediaAPI = BevorAPI['MediaAPI'];
+export const ServiceAPI = BevorAPI['ServiceAPI'];
+export const SettingsAPI = BevorAPI['SettingsAPI'];
+export const UserAPI = BevorAPI['UserAPI'];
+export const VendorAPI = BevorAPI['VendorAPI'];
+export default BevorAPI;

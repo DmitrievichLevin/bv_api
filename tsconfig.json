@@ -1,0 +1,26 @@
+{   
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "ESNext",
+        "noImplicitAny": true,
+        "skipLibCheck": false,
+        "moduleResolution": "Node",
+        "outDir": "dist",
+        "sourceMap": true,
+        "importHelpers": true,
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "ts-node": {
+    "files": true,
+    "esm": true
+  },
+  "include": ["src/**/*", "src/build"],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "src/build/**/*"
+    ]
+}
